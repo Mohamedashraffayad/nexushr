@@ -29,7 +29,7 @@ export default function Footer() {
               {f.tagline}
             </p>
             <a
-              href="https://wa.me/201000000000"
+              href="https://wa.me/201281197000"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#25d366]/10 border border-[#25d366]/25 text-[#4ade80] hover:bg-[#25d366]/18 text-[12.5px] font-semibold px-4 py-2 rounded-xl transition-all"
