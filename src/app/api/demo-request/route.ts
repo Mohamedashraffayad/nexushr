@@ -80,7 +80,7 @@ export async function POST(req: NextRequest) {
     // Send admin notification email
     const adminEmail = process.env.ADMIN_EMAIL || "admin@nexushr.com";
     await resend.emails.send({
-      from: "NexusHR <noreply@nexushr.com>",
+      from: "NexusHR <onboarding@resend.dev>",
       to: adminEmail,
       subject: `🚀 طلب عرض جديد - ${company_name}`,
       html: `
@@ -131,26 +131,26 @@ export async function POST(req: NextRequest) {
     });
 
     // Send confirmation email to user
-    await resend.emails.send({
-      from: "NexusHR <noreply@nexushr.com>",
-      to: email,
-      subject: "تم استلام طلبك — NexusHR",
-      html: `
-        <div dir="rtl" style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
-          <div style="background: linear-gradient(135deg, #1e3a8a, #2563eb); padding: 24px; border-radius: 8px; margin-bottom: 24px; text-align: center;">
-            <h1 style="color: white; margin: 0;">NexusHR</h1>
-          </div>
-          <h2 style="color: #1e293b;">مرحباً ${contact_name}،</h2>
-          <p style="color: #475569; line-height: 1.8;">
-            شكراً لاهتمامك بـ NexusHR. لقد استلمنا طلبك وسيتواصل معك فريقنا خلال <strong>٢٤ ساعة</strong> لتحديد موعد العرض التوضيحي المجاني.
-          </p>
-          <div style="background: #f1f5f9; padding: 16px; border-radius: 8px; margin: 20px 0;">
-            <p style="margin: 0; color: #64748b;">للتواصل المباشر يمكنك مراسلتنا عبر واتساب أو البريد الإلكتروني</p>
-          </div>
-          <p style="color: #94a3b8; font-size: 12px;">فريق NexusHR</p>
-        </div>
-      `,
-    });
+    // await resend.emails.send({
+    //   from: "NexusHR <noreply@nexushr.com>",
+    //   to: email,
+    //   subject: "تم استلام طلبك — NexusHR",
+    //   html: `
+    //     <div dir="rtl" style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
+    //       <div style="background: linear-gradient(135deg, #1e3a8a, #2563eb); padding: 24px; border-radius: 8px; margin-bottom: 24px; text-align: center;">
+    //         <h1 style="color: white; margin: 0;">NexusHR</h1>
+    //       </div>
+    //       <h2 style="color: #1e293b;">مرحباً ${contact_name}،</h2>
+    //       <p style="color: #475569; line-height: 1.8;">
+    //         شكراً لاهتمامك بـ NexusHR. لقد استلمنا طلبك وسيتواصل معك فريقنا خلال <strong>٢٤ ساعة</strong> لتحديد موعد العرض التوضيحي المجاني.
+    //       </p>
+    //       <div style="background: #f1f5f9; padding: 16px; border-radius: 8px; margin: 20px 0;">
+    //         <p style="margin: 0; color: #64748b;">للتواصل المباشر يمكنك مراسلتنا عبر واتساب أو البريد الإلكتروني</p>
+    //       </div>
+    //       <p style="color: #94a3b8; font-size: 12px;">فريق NexusHR</p>
+    //     </div>
+    //   `,
+    // });
 
     return NextResponse.json({ success: true }, { status: 200 });
   } catch (error) {
