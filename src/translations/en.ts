@@ -30,6 +30,7 @@ export const en = {
   },
 
   problem: {
+    sentence: "Dear HR Manager",
     badge: "The Problem",
     headline: "Most HR tools weren't built for how companies actually operate.",
     body: "When your workforce is spread across branches, countries, or compliance zones, a single-region HR tool creates more work than it saves. You end up with disconnected data, manual reconciliation, and payroll processes that don't scale.",

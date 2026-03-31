@@ -8,6 +8,9 @@ export function Problem() {
     <section className="py-24 bg-white">
       <div className="max-w-6xl mx-auto px-5 sm:px-8">
         <div className="max-w-3xl mb-16">
+          <p className={`${t.displayFont} text-[1.3rem] sm:text-[1.5rem] font-semibold text-ink-soft tracking-tight mb-3`}>
+            {p.sentence}
+          </p>
           <div className="badge badge-blue mb-5">{p.badge}</div>
           <h2 className={`${t.displayFont} text-[2.1rem] sm:text-[2.6rem] font-extrabold tracking-tight text-ink leading-[1.15] mb-4`}>
             {p.headline}

@@ -107,7 +107,7 @@ body {
 /* ── Badge ── */
 .badge {
   display: inline-flex; align-items: center; gap: 6px;
-  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase;
+  font-size: 0.8rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase;
   padding: 5px 13px; border-radius: 99px;
 }
 .badge-blue { background: var(--accent-dim); color: #1d4ed8; border: 1px solid #bfdbfe; }
