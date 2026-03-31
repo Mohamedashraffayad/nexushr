@@ -53,7 +53,7 @@ export function Solution() {
       <div className="relative max-w-6xl mx-auto px-5 sm:px-8">
         <div className="grid lg:grid-cols-[1fr_1.1fr] gap-16 items-center">
           <div>
-            <div className="badge badge-dark mb-5">{s.badge}</div>
+            <div className="badge badge-dark mb-5" style={{ fontSize: '1.1rem', padding: '7px 18px' }}>{s.badge}</div>
             <h2 className={`${t.displayFont} text-[2.1rem] sm:text-[2.6rem] font-extrabold tracking-tight text-white leading-[1.15] mb-5`}>
               {s.headline}
             </h2>
