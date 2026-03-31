@@ -43,7 +43,7 @@ export default function FinalCTA() {
             </svg>
           </a>
           <a
-            href="https://wa.me/201000000000"
+            href="https://wa.me/201281197000"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-ghost-white text-[14px] py-3.5 px-8"
