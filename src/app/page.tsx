@@ -4,9 +4,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/sections/Hero";
 import { Problem, Solution, Differentiation } from "@/components/sections/ProblemSolution";
 import Features from "@/components/sections/Features";
-import { BusinessImpact, Trust } from "@/components/sections/ImpactTrust";
-import { UseCases, Integrations, Localization } from "@/components/sections/UseCasesIntegrations";
-import Pricing from "@/components/sections/Pricing";
+import { BusinessImpact } from "@/components/sections/ImpactTrust";
 import FAQ from "@/components/sections/FAQ";
 import FinalCTA from "@/components/sections/FinalCTA";
 import DemoForm from "@/components/sections/DemoForm";
@@ -34,11 +32,7 @@ export default function Home() {
         <Differentiation />
         <Features />
         <BusinessImpact />
-        <UseCases />
-        <Integrations />
-        <Localization />
-        <Trust />
-        <Pricing />
+
         <FAQ />
         <FinalCTA />
         <DemoForm />

@@ -6,8 +6,6 @@ export const en = {
 
   nav: {
     product: "Product",
-    useCases: "Use Cases",
-    pricing: "Pricing",
     contact: "Contact",
     cta: "Book a Demo",
     langToggle: "عربي",
@@ -166,107 +164,6 @@ export const en = {
     ],
   },
 
-  useCases: {
-    badge: "Use Cases",
-    headline: "Built for companies with real operational complexity.",
-    cases: [
-      {
-        icon: "🏢",
-        title: "Multi-branch retail & services",
-        body: "Manage attendance and payroll across dozens of locations from one dashboard. Branch managers see their own data. HR sees everything.",
-      },
-      {
-        icon: "🏭",
-        title: "Manufacturing & production",
-        body: "Track shift workers across production lines with fingerprint check-in. Overtime, shift differentials, and compliance deductions handled automatically.",
-      },
-      {
-        icon: "🏗",
-        title: "Construction & field operations",
-        body: "GPS check-in for workers on site. Multi-project workforce tracking. Documents and contracts attached to each employee profile.",
-      },
-      {
-        icon: "🏥",
-        title: "Healthcare & services",
-        body: "Manage rotating shifts, accrued leave, and compliance requirements across a workforce that doesn't sit at a desk.",
-      },
-    ],
-  },
-
-  localization: {
-    badge: "Global Ready",
-    headline: "Languages and compliance — not an afterthought.",
-    body: "NexusHR supports multi-language interfaces, RTL layouts, and configurable payroll rules. Whether you operate in one country or ten, the system adapts to your requirements — not the other way around.",
-    points: [
-      "Full Arabic interface with native RTL layout",
-      "English and additional language support",
-      "Configurable tax brackets and insurance rules per region",
-      "Regional date formats, number formats, and currency display",
-      "Payroll compliance logic configurable per company entity",
-    ],
-  },
-
-  trust: {
-    badge: "Built to be trusted",
-    headline: "Security and reliability as a foundation.",
-    testimonials: [
-      {
-        quote: "We run payroll for 180 employees across three branches. Before NexusHR, it took our HR team four days every month. Now it's done in a morning, and I can check the reconciliation report from my phone.",
-        name: "Khaled M.",
-        title: "Operations Director",
-        company: "Multi-branch retail group",
-        initials: "KM",
-      },
-      {
-        quote: "The attendance tracking was the turning point for us. GPS check-in for field teams, fingerprint at the office — all feeding into the same payroll run. We haven't had a payroll dispute in six months.",
-        name: "Sara L.",
-        title: "HR Manager",
-        company: "Facilities services company",
-        initials: "SL",
-      },
-      {
-        quote: "We needed a system that handled Arabic payslips and complied with local insurance rules. Most platforms treat that as an add-on. NexusHR is built that way from the start.",
-        name: "Ahmed R.",
-        title: "CFO",
-        company: "Regional logistics company",
-        initials: "AR",
-      },
-    ],
-    indicators: [
-      { icon: "🔐", title: "Role-based access control", body: "Permissions enforced at every level. Employees see only their own data." },
-      { icon: "📋", title: "Immutable audit log", body: "Every system action recorded with user, timestamp, and change detail." },
-      { icon: "🔒", title: "Encrypted authentication", body: "JWT-based auth with secure token handling and session management." },
-      { icon: "☁️", title: "Cloud or on-premise", body: "Deploy on your infrastructure or use our hosted environment." },
-    ],
-  },
-
-  integrations: {
-    badge: "Integrations",
-    headline: "Bring your data in. Push structured output out.",
-    body: "NexusHR doesn't require you to start from scratch. Import existing employee records and attendance history. Export payroll data and reports in formats your finance team already uses.",
-    items: [
-      { icon: "📊", name: "Excel Import", desc: "Employees and attendance via structured Excel sheets with row-level validation" },
-      { icon: "📄", name: "PDF Payslips", desc: "Per-employee payslips generated and downloadable in one click" },
-      { icon: "📤", name: "CSV / JSON Export", desc: "Employee directory and payroll data exported for finance or analytics tools" },
-      { icon: "🔌", name: "REST API", desc: "Full API for building custom integrations with your existing systems" },
-      { icon: "🖐", name: "Fingerprint Devices", desc: "Compatible with standard biometric attendance hardware" },
-      { icon: "📱", name: "Mobile App", desc: "Employee self-service and GPS check-in via iOS and Android" },
-    ],
-  },
-
-  pricing: {
-    badge: "Pricing",
-    headline: "Priced for the size you are, not the size you used to be.",
-    body: "No flat fee that penalizes smaller teams. No enterprise lock-in that makes scaling painful. NexusHR is priced per employee — you pay for what you use.",
-    points: [
-      "Per-employee pricing — scales with your headcount",
-      "No hidden implementation or setup fees",
-      "Onboarding and data migration support included",
-      "Dedicated support contact from day one",
-    ],
-    cta: "Get a custom quote",
-    note: "Most companies are up and running within a week.",
-  },
 
   faq: {
     badge: "FAQ",
@@ -344,7 +241,7 @@ export const en = {
   footer: {
     tagline: "HR and payroll infrastructure for companies operating across locations, languages, and compliance requirements.",
     links: {
-      product: { title: "Product", items: ["Features", "Pricing", "Use Cases", "Integrations"] },
+      product: { title: "Product", items: ["Features"] },
       company: { title: "Company", items: ["About", "Contact", "Careers"] },
       legal: { title: "Legal", items: ["Privacy Policy", "Terms of Service", "Data Processing"] },
     },
