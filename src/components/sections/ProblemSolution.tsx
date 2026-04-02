@@ -87,7 +87,7 @@ export function Differentiation() {
       <div className="max-w-6xl mx-auto px-5 sm:px-8">
         <div className="grid lg:grid-cols-[1fr_1.3fr] gap-16 items-start">
           <div className="lg:sticky lg:top-24">
-            <div className="badge badge-blue mb-5">{d.badge}</div>
+            <div className="badge badge-blue mb-5" style={{ fontSize: '1.1rem', padding: '7px 18px' }}>{d.badge}</div>
             <h2 className={`${t.displayFont} text-[2.1rem] sm:text-[2.6rem] font-extrabold tracking-tight text-ink leading-[1.15] mb-5`}>
               {d.headline}
             </h2>
