@@ -6,6 +6,8 @@ export const en = {
 
   nav: {
     product: "Product",
+    features: "Features",
+    faq: "FAQ",
     contact: "Contact",
     cta: "Book a Demo",
     langToggle: "عربي",

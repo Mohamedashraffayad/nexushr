@@ -9,7 +9,7 @@ export default function FAQ() {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section className="py-24 bg-surface-2">
+    <section id="faq" className="py-24 bg-surface-2">
       <div className="max-w-4xl mx-auto px-5 sm:px-8">
         <div className="text-center mb-14">
           <div className="badge badge-blue mb-5">{faq.badge}</div>

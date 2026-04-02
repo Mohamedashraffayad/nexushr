@@ -8,6 +8,8 @@ export const ar: Translations = {
 
   nav: {
     product: "المنتج",
+    features: "المميزات",
+    faq: "الأسئلة الشائعة",
     contact: "تواصل معنا",
     cta: "احجز عرضاً",
     langToggle: "EN",
