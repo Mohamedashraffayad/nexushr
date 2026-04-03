@@ -1,0 +1,13 @@
+Place your feature screenshots here with these exact filenames:
+- dashboard.png
+- employee-directory.png
+- employee-profile.png
+- attendance.png
+- leave-requests.png
+- my-leaves.png
+- payroll-history.png
+- payroll-reconciliation.png
+- my-payslip.png
+- loans.png
+- business-trips.png
+- reports.png
