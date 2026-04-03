@@ -86,72 +86,13 @@ export default function Hero() {
                     <span className="text-slate-400 text-[11px] font-mono">app.nexushr.com</span>
                   </div>
                 </div>
-                <div className="bg-[#f8fafc] p-4">
-                  {/* Top bar */}
-                  <div className="flex items-center justify-between mb-4">
-                    <div>
-                      <div className="text-[13px] font-bold text-ink">March 2025 Payroll</div>
-                      <div className="text-[11px] text-ink-faint mt-0.5">Processing run — 339 employees</div>
-                    </div>
-                    <div className="flex items-center gap-1.5 bg-emerald-50 border border-emerald-200 px-3 py-1.5 rounded-full">
-                      <div className="w-1.5 h-1.5 rounded-full bg-emerald-500"/>
-                      <span className="text-[11px] font-semibold text-emerald-700">Verified</span>
-                    </div>
-                  </div>
-
-                  {/* KPI row */}
-                  <div className="grid grid-cols-4 gap-2.5 mb-4">
-                    {[
-                      { l: "Total Employees", v: "339", sub: "+12 this month", c: "text-ink" },
-                      { l: "Present Today", v: "312", sub: "92% attendance", c: "text-emerald-700" },
-                      { l: "On Leave", v: "18", sub: "5 pending approval", c: "text-amber-700" },
-                      { l: "Payroll Ready", v: "98%", sub: "16 flagged items", c: "text-accent" },
-                    ].map((k, i) => (
-                      <div key={i} className="bg-white rounded-xl p-3 border border-slate-100 shadow-sm">
-                        <div className="text-[9px] text-ink-faint uppercase tracking-wide mb-1">{k.l}</div>
-                        <div className={`text-[18px] font-black ${k.c}`}>{k.v}</div>
-                        <div className="text-[9px] text-ink-faint mt-0.5">{k.sub}</div>
-                      </div>
-                    ))}
-                  </div>
-
-                  {/* Attendance chart */}
-                  <div className="bg-white rounded-xl p-3 border border-slate-100 shadow-sm mb-2.5">
-                    <div className="flex justify-between items-center mb-2.5">
-                      <span className="text-[11px] font-semibold text-ink">Attendance — This Week</span>
-                      <span className="text-[10px] text-accent font-medium">View report →</span>
-                    </div>
-                    <div className="flex items-end gap-1 h-14">
-                      {[88, 92, 86, 95, 91, 79, 94].map((v, i) => (
-                        <div key={i} className="flex-1 flex flex-col items-center gap-1">
-                          <div className={`w-full rounded-t-sm transition-all ${i === 6 ? "bg-accent" : "bg-blue-100"}`} style={{height:`${v}%`}}/>
-                          <span className="text-[8px] text-ink-faint">
-                            {["M","T","W","T","F","S","S"][i]}
-                          </span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* Payroll rows */}
-                  <div className="bg-white rounded-xl border border-slate-100 shadow-sm overflow-hidden">
-                    <div className="grid grid-cols-5 px-3 py-2 bg-slate-50 border-b border-slate-100">
-                      {["Employee","Dept","Gross","Deductions","Net"].map(h => (
-                        <div key={h} className="text-[8px] font-semibold text-ink-faint uppercase tracking-wide">{h}</div>
-                      ))}
-                    </div>
-                    {[
-                      ["Ahmed M.","Tech","EGP 15,000","EGP 2,900","EGP 12,100"],
-                      ["Sara K.","HR","EGP 12,500","EGP 2,335","EGP 10,165"],
-                      ["Karim H.","Sales","EGP 11,800","EGP 2,178","EGP 9,622"],
-                    ].map((row, i) => (
-                      <div key={i} className="grid grid-cols-5 px-3 py-2 border-b border-slate-50 last:border-0 hover:bg-slate-50/50">
-                        {row.map((cell, j) => (
-                          <div key={j} className={`text-[9px] ${j === 4 ? "font-bold text-emerald-700" : j === 3 ? "text-red-500" : "text-ink-soft"}`}>{cell}</div>
-                        ))}
-                      </div>
-                    ))}
-                  </div>
+                <div className="bg-[#0b1437]">
+                  <img
+                    src="/features/dashboard.png"
+                    alt="NexusHR Dashboard"
+                    className="w-full h-auto block"
+                    loading="eager"
+                  />
                 </div>
               </div>
 
